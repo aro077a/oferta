@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/oferta/static/css/main.e4e3f8ca.chunk.css",
+    "main.js": "/oferta/static/js/main.0fb2a624.chunk.js",
+    "main.js.map": "/oferta/static/js/main.0fb2a624.chunk.js.map",
+    "runtime-main.js": "/oferta/static/js/runtime-main.7edb3874.js",
+    "runtime-main.js.map": "/oferta/static/js/runtime-main.7edb3874.js.map",
+    "static/css/2.26ca8a35.chunk.css": "/oferta/static/css/2.26ca8a35.chunk.css",
+    "static/js/2.1be8a4d2.chunk.js": "/oferta/static/js/2.1be8a4d2.chunk.js",
+    "static/js/2.1be8a4d2.chunk.js.map": "/oferta/static/js/2.1be8a4d2.chunk.js.map",
+    "static/js/3.bbf5f5c3.chunk.js": "/oferta/static/js/3.bbf5f5c3.chunk.js",
+    "static/js/3.bbf5f5c3.chunk.js.map": "/oferta/static/js/3.bbf5f5c3.chunk.js.map",
+    "index.html": "/oferta/index.html",
+    "static/css/2.26ca8a35.chunk.css.map": "/oferta/static/css/2.26ca8a35.chunk.css.map",
+    "static/css/main.e4e3f8ca.chunk.css.map": "/oferta/static/css/main.e4e3f8ca.chunk.css.map",
+    "static/js/2.1be8a4d2.chunk.js.LICENSE.txt": "/oferta/static/js/2.1be8a4d2.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/oferta/static/media/Sofia Pro Regular Az.d36998f5.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7edb3874.js",
+    "static/css/2.26ca8a35.chunk.css",
+    "static/js/2.1be8a4d2.chunk.js",
+    "static/css/main.e4e3f8ca.chunk.css",
+    "static/js/main.0fb2a624.chunk.js"
+  ]
+}
