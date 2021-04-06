@@ -1,0 +1,78 @@
+%scheduleProps {
+  display: grid;
+  width: 188px;
+  height: 318px;
+  border: 2px solid #ffffff;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+
+.schedule__container {
+  &__checked {
+    align-content: flex-end;
+    gap: 30px;
+    @extend %scheduleProps;
+    &--switcher {
+      display: grid;
+      justify-content: center;
+    }
+    &__content {
+      display: grid;
+      justify-content: center;
+      text-align: center;
+      padding: 12px 0;
+      height: 234px;
+      background: #d4e1f0;
+      border-radius: 40px;
+      &--info {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 120%;
+        margin: 0;
+      }
+      &--remainTime {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        color: #5e768f;
+      }
+      &--line {
+        border-right: 2px dotted #b0c8e1;
+        width: 50%;
+        height: 17px;
+      }
+      &__time {
+        margin: auto;
+        .ant-picker {
+          width: 76px;
+          height: 36px;
+          background: rgba(255, 255, 255, 0.6);
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+
+  &__unchecked {
+    @extend %scheduleProps;
+    &--switcher {
+      display: grid;
+      justify-content: center;
+      margin-top: 15px;
+    }
+    &__empty {
+      text-align: center;
+      p {
+        font-weight: 600;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 19.2px;
+      }
+    }
+  }
+}

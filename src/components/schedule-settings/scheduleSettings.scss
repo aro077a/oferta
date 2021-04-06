@@ -1,0 +1,17 @@
+.schedule__settings {
+  padding: 60px;
+  &__title {
+    h1 {
+      font-weight: 600;
+      font-style: normal;
+      font-size: 28px;
+      line-height: 33.6px;
+    }
+  }
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(188px, 1fr));
+    gap: 10px;
+    margin-top: 60px;
+  }
+}
